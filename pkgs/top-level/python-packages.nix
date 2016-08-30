@@ -4544,7 +4544,7 @@ in modules // {
     };
   };
 
-  pytest = self.pytest_29;
+  pytest = self.pytest_30;
 
   pytest_27 = buildPythonPackage rec {
     name = "pytest-2.7.3";
@@ -4587,6 +4587,16 @@ in modules // {
       url = "mirror://pypi/p/pytest/${name}.tar.gz";
       sha256 = "1n6igbc1b138wx1q5gca4pqw1j6nsyicfxds5n0b5989kaxqmh8j";
     };
+  };
+
+  pytest_30 = self.pytest_27.override rec {
+    name = "pytest-3.0.1";
+
+    src = pkgs.fetchurl {
+      url = "mirror://pypi/p/pytest/${name}.tar.gz";
+      sha256 = "e82bc0596ee96b2287c08705cfcb6898db1fe4b5c87db3b6823f1fdd77fb3ff1";
+    };
+
   };
 
   pytestcache = buildPythonPackage rec {
