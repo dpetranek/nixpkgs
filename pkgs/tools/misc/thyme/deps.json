@@ -1,0 +1,11 @@
+[
+ {
+   "goPackagePath": "github.com/jessevdk/go-flags",
+   "fetch": {
+     "type": "git",
+     "url": "https://github.com/jessevdk/go-flags",
+     "rev": "a8cab0163d48558ffd77076c9c99388529766f63",
+     "sha256": "07i4f35r0xqx2iqav36lkl7ja71bjswqnfjr2wkx05icibj2m474"
+   }
+ }
+]

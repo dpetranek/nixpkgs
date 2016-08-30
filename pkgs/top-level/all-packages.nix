@@ -17396,6 +17396,8 @@ in
 
   thinkfan = callPackage ../tools/system/thinkfan { };
 
+  thyme = callPackage ../tools/misc/thyme { };
+
   tup = callPackage ../development/tools/build-managers/tup { };
 
   tvheadend = callPackage ../servers/tvheadend { };
